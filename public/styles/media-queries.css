@@ -1,0 +1,12 @@
+@media all and (max-width: 650px) {
+    .b-current-recipe__image {
+        padding: 0 15px;
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 382px) {
+    .b-top-panel__logo {
+        display: none;
+    }
+}

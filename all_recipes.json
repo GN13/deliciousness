@@ -1,0 +1,785 @@
+{
+  "translation" : {
+    "Main page": "Main page",
+    "Ingredients": "Ingredients",
+    "Preparation": "Preparation"
+  },
+  "categories": [
+    {
+      "category": "Light Meal",
+      "category_name": "light_meal",
+      "recipes": [
+        {
+          "title": "Cheese Sticks",
+          "name": "cheese_sticks",
+          "ingredients": [
+            "320g flour",
+            "300g butter",
+            "400g cheese",
+            "5g sugar",
+            "3 eggs",
+            "3g pepper",
+            "salt"
+          ],
+          "preparation": [
+            "Mix flour, grated cheese and butter, 2 yolks, sugar, salt, pepper, and knead dough",
+            "Put the dough into the fridge for 2 hours",
+            "Roll out the dough to about 5mm thick and cut out triangles or rectangles of needed size",
+            "Bake for 12-15 minutes"
+          ]
+        },
+        {
+          "title": "Chicken Breast with Cheese",
+          "name": "chicken_breast_with_cheese",
+          "ingredients": [
+            "2 tablespoons olive oil",
+            "2-3 cloves of garlic",
+            "200g breadcrumbs",
+            "100g cheese",
+            "1/2 teaspoon black pepper",
+            "3 chicken breasts"
+          ],
+          "preparation": [
+            "Mix oil and garlic in one bowl",
+            "Mix breadcrumbs, grated cheese and pepper in another bowl",
+            "Dip every piece of meat first in oil substance and then in the bowl with breadcrumbs",
+            "Bake for 30 minutes"
+          ]
+        },
+        {
+          "title": "Cheese Appetizer",
+          "name": "cheese_appetizer",
+          "ingredients": [
+            "sunflower oil",
+            "parsley",
+            "2 whites",
+            "salt",
+            "1 tablespoon flour",
+            "100g cheese",
+            "breadcrumbs"
+          ],
+          "preparation": [
+            "Grate cheese",
+            "Whisk chilled whites with a pinch of salt",
+            "Add cheese and pepper",
+            "Make balls and roll them in breadcrumbs (or flour)",
+            "Fry in a large amount of sunflower oil",
+            "Serve with parsley"
+          ]
+        },
+        {
+          "title": "Rice Cutlets",
+          "name": "rice_cutlets",
+          "ingredients": [
+            "200g rice",
+            "2 eggs",
+            "100g kefir",
+            "150g cheese",
+            "green onions",
+            "spices",
+            "2 tablespoons sunflower oil",
+            "100g breadcrumbs"
+          ],
+          "preparation": [
+            "Grate cheese, cut onions in small pieces",
+            "Mix kefir, eggs, onions and cheese, add spices, and stir",
+            "Add boiled rice, stir",
+            "Put everything into the fridge for 2 hours",
+            "Then form cutlets, roll them in breadcrumbs and fry on both sides"
+          ]
+        },
+        {
+          "title": "Potato Croquettes",
+          "name": "potato_croquettes",
+          "ingredients": [
+            "2-3 potatoes",
+            "2 tablespoons flour",
+            "1 tablespoon butter",
+            "1 egg",
+            "2 tablespoons breadcrumbs",
+            "salt",
+            "spices"
+          ],
+          "preparation": [
+            "Boil potato in salty water and mash it",
+            "Add yolk, butter, spices and stir",
+            "Make balls out of mashed potato",
+            "Whisk white",
+            "Roll balls in white, then in breadcrumbs",
+            "Fry balls in a large amount of sunflower oil until ready"
+          ]
+        },
+        {
+          "title": "Potato Zrazy",
+          "name": "potato_zrazy",
+          "ingredients": [
+            "7 potatoes",
+            "500g mincemeat",
+            "1 onion",
+            "3 cloves of garlic",
+            "1 egg",
+            "300g flour",
+            "salt",
+            "pepper",
+            "sunflower oil",
+            "breadcrumbs"
+          ],
+          "preparation": [
+            "Boil potato and mash it",
+            "Add egg, salt, pepper, flour",
+            "Knead dough that doesn't stick to hands",
+            "Fry onion cut in small pieces and garlic",
+            "Add mincemeat, salt, pepper and fry until ready",
+            "Form pellets out of potato dough, put meat stuffing in the middle and unite the edge of pellets",
+            "Roll zrazy in breadcrumbs",
+            "Fry until ready",
+            "Serve with sour cream"
+          ]
+        },
+        {
+          "title": "Scrambled Eggs in Roll",
+          "name": "scrambled_eggs_in_roll",
+          "ingredients": [
+            "4 rolls",
+            "4 eggs",
+            "100g bacon or ham",
+            "100g cheese",
+            "dill",
+            "pepper",
+            "salt"
+          ],
+          "preparation": [
+            "Cut out the top of the roll and its inner part",
+            "Put the slice of bacon and egg inside each roll, add salt and pepper",
+            "Sprinkle grated cheese and dill over",
+            "Bake for 10 minutes"
+          ]
+        },
+        {
+          "title": "Chicken Pop-Corn",
+          "name": "chicken_pop-corn",
+          "ingredients": [
+            "2 cloves of garlic",
+            "500g chicken fillet",
+            "300g flour",
+            "200g melted cheese",
+            "salt",
+            "pepper"
+          ],
+          "preparation": [
+            "Cut fillet in pieces",
+            "Mix fillet, salt, pepper and spices in a bowl, leave for half an hour",
+            "mix flour, pepper and some more spices in another bowl",
+            "Roll fillet in flour, then in cheese, then in flour again",
+            "Leave chicken for 10-15 minutes",
+            "Fry in a large amount of oil for 3-6 minutes",
+            "Serve with ketchup"
+          ]
+        },
+        {
+          "title": "Corn-Dog",
+          "name": "corn-dog",
+          "ingredients": [
+            "200g flour",
+            "3 tablespoons sugar",
+            "1 teaspoon baking soda",
+            "1 egg",
+            "2 tablespoons milk",
+            "6 sausages",
+            "salt",
+            "pepper"
+          ],
+          "preparation": [
+            "Mix flour, sugar, baking soda, salt and pepper, and stir thoroughly",
+            "Add egg and milk, and knead dense dough",
+            "Put sausages on sticks and roll in flour and dough",
+            "Fry in oil until batter becomes golden",
+            "Serve with ketchup or mustard"
+          ]
+        },
+        {
+          "title": "Lacy Pancakes",
+          "name": "lacy_pancakes",
+          "ingredients": [
+            "200g kefir",
+            "1 egg",
+            "200g flour",
+            "baking soda",
+            "1 tablespoon sunflower oil",
+            "100ml boiling water",
+            "1 tablespoon sugar",
+            "salt"
+          ],
+          "preparation": [
+            "Mix kefir, egg, sugar, salt and flour, and stir",
+            "In boiling water add baking soda, stir quickly and pour everything into dough",
+            "Stir everything again and let the dough stand for 10 minutes",
+            "Cook pancakes in greased frying pan"
+          ]
+        },
+        {
+          "title": "Cheese Pancakes",
+          "name": "cheese_pancakes",
+          "ingredients": [
+            "200g cottage cheese",
+            "2 tablespoons sugar",
+            "1 egg",
+            "2 tablespoons flour",
+            "salt",
+            "sunflower oil"
+          ],
+          "preparation": [
+            "Crumple cottage cheese with a fork, add sugar and egg, and stir",
+            "Form pancakes, roll them in flour on both sides",
+            "Fry over small heat until ready"
+          ]
+        },
+        {
+          "title": "Kiwi with Yoghurt and Biscuits",
+          "name": "kiwi_with_yoghurt_and_biscuits",
+          "ingredients": [
+            "400g yoghurt",
+            "8 kiwis",
+            "8 biscuit pieces",
+            "4 tablespoons sugar"
+          ],
+          "preparation": [
+            "Peel and dice kiwis",
+            "Whisk yoghurt with sugar",
+            "Then put kiwis and yoghurt into a bowl, layer by layer",
+            "Strew cookies over"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Substantial Meal",
+      "category_name": "substantial_meal",
+      "recipes": [
+        {
+          "title": "Julienne in Potato",
+          "name": "julienne_in_potato",
+          "ingredients": [
+            "4 big potatoes",
+            "400g mushrooms",
+            "1 onion",
+            "100g butter",
+            "1/2 tablespoon flour",
+            "250ml fresh cream",
+            "100g grated cheese",
+            "salt",
+            "pepper"
+          ],
+          "preparation": [
+            "Wash potato but don't peel it",
+            "Cut every potato in 2 equal parts and using a spoon take out the inner part, leaving 5mm edges",
+            "Put got 'boats' in the water so that potato won't become dark",
+            "Melt butter in frying pan, fry mushrooms for 5-7 minutes in it",
+            "Add onion, flour, fresh cream, salt, pepper and fry for 3-4 minutes more",
+            "Stuff each 'boat' with a piece of butter and mushroom filling",
+            "Bake for 15 minutes",
+            "Sprinkle grated cheese over and bake for 15 minutes more"
+          ]
+        },
+        {
+          "title": "Harmonica Potatoes",
+          "name": "harmonica_potatoes",
+          "ingredients": [
+            "2 potatoes",
+            "bacon or ham",
+            "cheese",
+            "2-3 tablespoons sunflower oil",
+            "1 teaspoon curry",
+            "salt",
+            "pepper"
+          ],
+          "preparation": [
+            "Peel potatoes",
+            "Slice each potato putting a spoon under",
+            "Wrap each potato in foil and bake for 15 minutes",
+            "Slice ham, add salt, pepper, 1 tablespoon of oil, and stir everything",
+            "Sauce: mix curry and oil",
+            "In 15 minutes take potatoes out of the oven, distribute ham in cuts, add sauce",
+            "Bake for 15 minutes more",
+            "Distribute sliced cheese in the rest of cuts and bake for 10 minutes more"
+          ]
+        },
+        {
+          "title": "Macaroni with Cheese",
+          "name": "macaroni_with_cheese",
+          "ingredients": [
+            "300g macaroni",
+            "50g butter",
+            "60g flour",
+            "450ml milk",
+            "400g cheese"
+          ],
+          "preparation": [
+            "Cook macaroni",
+            "Grate cheese",
+            "Sauce: melt butter in a stew-pan, add flour, stirring thoroughly all the time",
+            "In 2 minutes add milk, cook until thickened",
+            "Add spices and cheese, and stir",
+            "Mix sauce with macaroni"
+          ]
+        },
+        {
+          "title": "Rice with Garlic",
+          "name": "rice_with_garlic",
+          "ingredients": [
+            "200g rice",
+            "5 cloves of garlic",
+            "1 tablespoon sunflower oil",
+            "1 bunch of green onions",
+            "2 eggs"
+          ],
+          "preparation": [
+            "Boil rice",
+            "Cut garlic into small pieces and fry it",
+            "Add rice, eggs, green onions",
+            "Fry for 10 minutes more"
+          ]
+        },
+        {
+          "title": "Potatoes 'Romanoff'",
+          "name": "potatoes_romanoff",
+          "ingredients": [
+            "1kg peeled and grated potatoes",
+            "1 onion cut in small pieces",
+            "300g grated cheese",
+            "300g sour-cream",
+            "salt",
+            "pepper"
+          ],
+          "preparation": [
+            "Mix potatoes, onion, 225g cheese, salt, pepper and sour-cream in a large bowl",
+            "Lay out potato substance in a baking pan",
+            "Sprinkle the remaining part of cheese over",
+            "Bake for 25-30 minutes"
+          ]
+        },
+        {
+          "title": "Potatoes with Mushrooms in Sour-cream",
+          "name": "potatoes_with_mushrooms_in_sour-cream",
+          "ingredients": [
+            "8 potatoes",
+            "500g mushrooms",
+            "1 onion",
+            "1 tablespoon flour",
+            "olive oil",
+            "250g sour-cream",
+            "salt",
+            "pepper"
+          ],
+          "preparation": [
+            "Peel and slice potatoes",
+            "Cut onion into small pieces, add flour and fry in olive oil",
+            "Cut mushrooms and fry them apart from onion",
+            "Lay potatoes out in a baking pan",
+            "Add mushrooms, onion, spices and sour-cream",
+            "Stir everything and bake for 40 minutes"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Cookies and Sweets",
+      "category_name": "cookies_sweets",
+      "recipes": [
+        {
+          "title": "Cottage Cheese Sweets",
+          "name": "cottage_cheese_sweets",
+          "ingredients": [
+            "350g cottage cheese",
+            "50g nuts",
+            "150g cookie crumbs",
+            "sugar, chocolate, vanillin"
+          ],
+          "preparation": [
+            "Whisk cottage cheese using blender",
+            "Add sugar, vanillin, cookie crumbs and nuts, and stir",
+            "Make balls and roll them in grated chocolate crumbs",
+            "Before serving chill sweets in the fridge for an hour"
+          ]
+        },
+        {
+          "title": "Caramel",
+          "name": "caramel",
+          "ingredients": [
+            "200g sugar",
+            "100g milk",
+            "50g butter",
+            "vanillin",
+            "salt"
+          ],
+          "preparation": [
+            "Put sugar into frying pan and start cooking it over medium heat until it melts completely and becomes golden",
+            "Remove frying pan from heat and little by little add milk constantly stirring the substance",
+            "Add vanillin and a pinch of salt, and stir",
+            "Heat the substance one more time over small heat, but don't allow it to boil",
+            "After add butter, and stir"
+          ]
+        },
+        {
+          "title": "Cookies 'Bonjour'",
+          "name": "bonjour_cookies",
+          "ingredients": [
+            "2 eggs",
+            "100g sugar",
+            "30g sour-cream",
+            "baking soda",
+            "400g flour",
+            "salt",
+            "cherries"
+          ],
+          "preparation": [
+            "Whisk eggs with sugar, add sour-cream, baking soda and salt. Stir everything thoroughly",
+            "Add flour and knead dough that doesn't stick to your hands",
+            "Roll out the dough to about 5mm thick",
+            "Using a glass cut small circles out",
+            "Put 2 or 3 cherries on each circle and make balls",
+            "Sprinkle baking pan with flour and put balls on it",
+            "Bake in oven for about 30 minutes"
+          ]
+        },
+        {
+          "title": "Jelly Gummies",
+          "name": "jelly_gummies",
+          "ingredients": [
+            "300ml fruit juice",
+            "4 tablespoons gelatine",
+            "2-4 tablespoons honey"
+          ],
+          "preparation": [
+            "Pour juice into a small pan",
+            "Add gelatine and leave for a couple of minutes",
+            "When gelatine swells, stir",
+            "Put the pan over middle heat for gelatine to melt completely and for juice to become denser",
+            "Add honey",
+            "Pour the substance into molds and chill for 2-3 hours"
+          ]
+        },
+        {
+          "title": "Chocolate Braunie",
+          "name": "chocolate_braunie",
+          "ingredients": [
+            "150g butter",
+            "65g cacao powder",
+            "200g sugar",
+            "2 eggs",
+            "vanillin",
+            "100g flour"
+          ],
+          "preparation": [
+            "Melt butter, add sugar, cocoa, vanillin, eggs and flour and stir everything thoroughly",
+            "Grease baking pan with butter. Bake until set"
+          ]
+        },
+        {
+          "title": "Coconut Cookies",
+          "name": "coconut_cookies",
+          "ingredients": [
+            "100g flour",
+            "100g sugar",
+            "200g coconut flakes",
+            "2 eggs",
+            "baking soda + vinegar"
+          ],
+          "preparation": [
+            "Whisk eggs with sugar",
+            "Add coconut flakes and stir",
+            "Add flour with baking soda and vinegar, stir again",
+            "Put dough in fridge for 30 minutes",
+            "Form cookies out of dough and bake for about 15 minutes"
+          ]
+        },
+        {
+          "title": "Jelly on Milk",
+          "name": "jelly_on_milk",
+          "ingredients": [
+            "200ml milk",
+            "1 tablespoon sugar or honey",
+            "3 teaspoons gelatine"
+          ],
+          "preparation": [
+            "Mix 100ml milk with gelatine",
+            "Boil until gelatine melts completely",
+            "Remove from heat, add the remaining part of milk, sugar or honey",
+            "Stir, pour into molds, chill for 25 minutes"
+          ]
+        },
+        {
+          "title": "Oat Cookies",
+          "name": "oat_cookies",
+          "ingredients": [
+            "100g butter",
+            "200g sugar",
+            "2 eggs",
+            "200g oat flakes",
+            "200g flour",
+            "nuts, candied fruits, dried fruits"
+          ],
+          "preparation": [
+            "Put butter and sugar into a bowl and crumple them with a fork",
+            "Use a mixer to get homogeneous substance",
+            "Add eggs, oat flakes, nuts etc., flour, and stir",
+            "Make balls, deep them in flour",
+            "Bake for 15 minutes"
+          ]
+        },
+        {
+          "title": "Milk Cookies",
+          "name": "milk_cookies",
+          "ingredients": [
+            "400g flour",
+            "200g sugar",
+            "100g butter",
+            "1 egg",
+            "80ml milk",
+            "baking soda + vinegar"
+          ],
+          "preparation": [
+            "Whisk butter with sugar",
+            "Add an egg, milk, baking soda, vinegar, and stir everything",
+            "Add flour, and knead the elastic dough",
+            "Roll out the dough to about 7-10mm thick",
+            "Form cookies out of the dough",
+            "Bake for 15 minutes"
+          ]
+        },
+        {
+          "title": "Banana Cookies",
+          "name": "banana_cookies",
+          "ingredients": [
+            "2 big bananas",
+            "200g oat flakes",
+            "nuts, raisins, chocolate, cinnamon"
+          ],
+          "preparation": [
+            "Crumple bananas with oat flakes, stir",
+            "Add nuts, raisins, chocolate, cinnamon",
+            "Bake for 15 minutes"
+          ]
+        },
+        {
+          "title": "Cookies 'Madlen'",
+          "name": "cookies_madlen",
+          "ingredients": [
+            "120g flour",
+            "2 eggs",
+            "80g sugar",
+            "90g butter",
+            "1 tablespoon lemon juice"
+          ],
+          "preparation": [
+            "Melt butter a bit, add eggs and sugar",
+            "Whisk everything with a hand mixer",
+            "Add flour and lemon juice, stir thoroughly",
+            "Put the dough into molds for cookies",
+            "Bake for 12-15 minutes"
+          ]
+        },
+        {
+          "title": "Cookies 'Coffee Grains'",
+          "name": "coffee_grains_cookies",
+          "ingredients": [
+            "4 tablespoons milk",
+            "5 tablespoons instant coffee",
+            "200g butter",
+            "200ml fresh cream",
+            "250g sugar",
+            "3 tablespoons cacao",
+            "650g flour"
+          ],
+          "preparation": [
+            "Melt coffee in hot milk",
+            "Add butter, sugar, fresh cream and cocoa, and stir everything",
+            "Then add flour and knead dough",
+            "Form coffee beans out of the dough",
+            "Bake for 12-15 minutes"
+          ]
+        },
+        {
+          "title": "Cookies 'Guests at the Threshold'",
+          "name": "cookies_guests_at_the_threshold",
+          "ingredients": [
+            "2 yolks",
+            "vanillin",
+            "230g flour",
+            "80g powdered sugar",
+            "120g butter",
+            "1 teaspoon lemon peels"
+          ],
+          "preparation": [
+            "Mix flour, sugar, butter, yolks and lemon peels in a bowl",
+            "Stir ingredients to homogeneity",
+            "Knead dough for 10 minutes for it to become elastic",
+            "Form cookies and bake for 10 minutes"
+          ]
+        },
+        {
+          "title": "Cookies 'Mushrooms'",
+          "name": "cookies_mushrooms",
+          "ingredients": [
+            "300g flour",
+            "100g butter",
+            "120g sugar",
+            "1 egg",
+            "2 teaspoons cocoa",
+            "baking soda + vinegar"
+          ],
+          "preparation": [
+            "Crumple butter and sugar in a bowl",
+            "Add an egg and whisk",
+            "Add flour, baking soda and vinegar, and knead dough",
+            "Wrap the dough in foil and put into fridge for 40 minutes",
+            "Form balls out of the dough at size of a walnut",
+            "Using a bottleneck, put into cocoa, get the form of a mushroom out of dough balls",
+            "Bake for 20 minutes"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Tarts and Cakes",
+      "category_name": "tarts_cakes",
+      "recipes": [
+        {
+          "title": "Apple Strudel",
+          "name": "apple_strudel",
+          "ingredients": [
+            "1 tablespoon sunflower oil",
+            "80ml water",
+            "300g flour",
+            "2 teaspoons cinnamon",
+            "raisins, nuts",
+            "3 tablespoons sugar",
+            "3 big apples",
+            "100ml fresh cream"
+          ],
+          "preparation": [
+            "Knead soft dough out of flour, sunflower oil and water",
+            "Wrap the dough in foil and put it in warm place for half an hour",
+            "Сut apples and nuts in small pieces",
+            "Put sugar and 2 tablespoons of water in frying pan (= caramel)",
+            "Add apples, nuts and cinnamon",
+            "Caramelize for 10-15 minutes over small heat",
+            "Roll out the dough so that it becomes translucent",
+            "Lay out the stuffing on the dough, roll it into strudel",
+            "Bake for 25 minutes",
+            "Pour fresh cream on strudel and bake for 15 minutes more"
+          ]
+        },
+        {
+          "title": "Puff Pastry",
+          "name": "puff_pastry",
+          "ingredients": [
+            "200g butter",
+            "1 egg",
+            "100ml sour-cream",
+            "salt",
+            "350g flour",
+            "100g sugar"
+          ],
+          "preparation": [
+            "Mix flour and butter, add yolk and sour-cream",
+            "Knead dough and put it into the fridge for an hour",
+            "Roll the dough out, cut triangles out",
+            "Put white and sugar into different bowls",
+            "Dip every triangle into white and sugar",
+            "Bake for 10 minutes"
+          ]
+        },
+        {
+          "title": "Baked Chocolate Cake",
+          "name": "baked_chocolate_cake",
+          "ingredients": [
+            "40g butter",
+            "100g sugar",
+            "1 egg",
+            "vanillin",
+            "50g milk",
+            "100g flour",
+            "2 tablespoons cocoa powder",
+            "baking soda + vinegar",
+            "salt"
+          ],
+          "preparation": [
+            "Mix butter, sugar, egg, vanillin and milk, stir everything",
+            "Add flour, cocoa powder, baking soda + vinegar and salt, stir again",
+            "Lay the dough out in a mold",
+            "Bake until set"
+          ]
+        },
+        {
+          "title": "Cottage Cheese Cake",
+          "name": "cottage_cheese_cake",
+          "ingredients": [
+            "200g cottage cheese",
+            "2 tablespoons sour-cream",
+            "2 eggs",
+            "2 tablespoons butter",
+            "200g flour",
+            "200g sugar",
+            "baking soda + vinegar",
+            "salt"
+          ],
+          "preparation": [
+            "Mix cottage cheese with eggs, sour-cream and butter in one bowl",
+            "Mix flour, sugar, baking soda + vinegar and salt in another bowl",
+            "Combine 2 sets of ingredients",
+            "Pour the dough in a mold",
+            "Bake for 35-45 minutes"
+          ]
+        },
+        {
+          "title": "Cottage Cheese Dessert",
+          "name": "cottage_cheese_dessert",
+          "ingredients": [
+            "500g cottage cheese",
+            "300g sour-cream",
+            "30g gelatine",
+            "sugar, fruits or berries"
+          ],
+          "preparation": [
+            "Mix cottage cheese with sour-cream, add sugar",
+            "Pour a glass of water into a saucepan, add gelatine, leave for 10 minutes",
+            "Then cook over small heat until gelatine melts completely, stir constantly",
+            "Pour gelatine in cottage cheese dough, stir thoroughly",
+            "Lay fruits or berries out on the bottom of a mold, pour gelatine substance",
+            "Put into the fridge for 2 hours"
+          ]
+        },
+        {
+          "title": "Cake with Melting Stuffing",
+          "name": "cake_with_melting_stuffing",
+          "ingredients": [
+            "225g chocolate (small pieces)",
+            "140g butter",
+            "200g powdered sugar",
+            "2 eggs",
+            "2 yolks",
+            "6 tablespoons flour",
+            "ice-cream",
+            "vanillin"
+          ],
+          "preparation": [
+            "Melt chocolate, add butter, stir",
+            "Add powdered sugar, stir again",
+            "Add eggs, yolks, flour and vanillin, and whisk",
+            "Pour the dough into molds and bake for 6-12 minutes",
+            "Decorate with ice-cream and serve"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Drinks",
+      "category_name": "drinks",
+      "recipes": [
+      ]
+    }
+  ]
+}
+
+

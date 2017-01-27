@@ -1,0 +1,24 @@
+{
+  "name": "deliciousness",
+  "version": "0.0.1",
+  "description": "Small cookery book",
+  "main": "hello.js",
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "lodash": "4.17.3",
+    "mustache-express": "^1.2.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/https://github.com/GN13/deliciousness.git"
+  },
+
+  "author": "Catherine Shantaliy",
+  "license": "ISC"
+}

@@ -1,0 +1,59 @@
+:root {
+	--black: #000;
+	--white: #fff;
+	--yellow: #f2ef3c;
+}
+
+.image {
+	border-radius: 10px;
+}
+
+.rounded-image {
+	border-radius: 50%;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.margin-bottom-20 {
+	margin-bottom: 20px;
+}
+
+.link {
+	color: var(--black);
+}
+
+.link:hover {
+	opacity: 0.8;
+	text-decoration: underline;
+}
+
+.underlined-text {
+	text-decoration: underline;
+}
+
+.flex_column_align-center {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.flex_align-center_justify-between {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+
+.flex_wrap_align-start {
+	align-items: start;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+
+
+
+
+

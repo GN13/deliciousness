@@ -1,0 +1,77 @@
+.b-top-panel {
+    background-color: var(--yellow);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+    left: 0;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.b-top-panel__menu-icon {
+    cursor: pointer;
+    font-size: 36px;
+    margin: 20px;
+}
+
+.b-top-panel__logo {
+    margin: 5px 10px 0 0;
+}
+
+.b-side-menu {
+    background-color: var(--white);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.26);
+    height: 100%;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 60px;
+    position: fixed;
+    top: 0;
+    /*transition: 0.5s;*/
+    width: 0;
+    z-index: 2;
+}
+
+.b-side-menu__lang {
+    display: flex;
+    left: 25px;
+    position: absolute;
+    top: 15px;
+}
+
+.b-side-menu__lang--option {
+    border-right: 1px solid var(--black);
+    color: var(--black);
+    font-size: 20px;
+    padding: 0 5px;
+}
+
+.b-side-menu__lang--option:last-child {
+    border-right: none;
+}
+
+.b-side-menu__lang--option:hover {
+    text-decoration: underline;
+}
+
+.b-side-menu .b-side-menu__close-btn {
+    color: var(--black);
+    font-size: 36px;
+    margin-left: 50px;
+    position: absolute;
+    right: 25px;
+    top: 0;
+}
+
+.b-recipe-item {
+    flex: 1;
+    margin: 10px;
+}
+
+.b-recipe-item:hover {
+    opacity: 0.8;
+}
+
+.b-current-recipe__list {
+    font-size: 20px;
+    line-height: 1.5;
+}

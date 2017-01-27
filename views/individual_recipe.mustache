@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deliciousness | {{currentRecipe.title}}</title>
+    <link rel="stylesheet" type="text/css" href="/styles/reset.css">
+    <link rel="stylesheet" type="text/css" href="/styles/font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="/styles/common.css">
+    <link rel="stylesheet" type="text/css" href="/styles/particular.css">
+    <link rel="stylesheet" type="text/css" href="/styles/media-queries.css">
+</head>
+<body>
+
+<div id="sideMenu" class="b-side-menu text-center">
+    <div class="b-side-menu__lang">
+        <a href="#" class="b-side-menu__lang--option" onclick="changeCookiesLang('en')">en</a>
+        <a href="#" class="b-side-menu__lang--option" onclick="changeCookiesLang('ru')">ru</a>
+    </div>
+    <a href="#" class="b-side-menu__close-btn" onclick="closeSideMenu()">&times;</a>
+    {{#categories}}
+        <a class="link flex_column_align-center" href="/category/{{category_name}}">
+            <img class="rounded-image" src="/images/all_categories/{{category_name}}.jpg"
+                 alt="{{category_name}}" width="125"/>
+            <h4>{{category}}</h4>
+        </a>
+    {{/categories}}
+</div>
+
+<nav class="b-top-panel flex_align-center_justify-between margin-bottom-20">
+    <i onclick="openSideMenu()" class="b-top-panel__menu-icon fa fa-bars" aria-hidden="true"></i>
+    <div class="b-top-panel__logo">
+        <a href="/">
+            <img src="/images/logo.png" alt="logo"/>
+        </a>
+    </div>
+</nav>
+
+{{#currentRecipe}}
+    <h1 class="text-center">{{title}}</h1>
+
+    <div class="flex_column_align-center">
+        <div class="text-center">
+            <h2 class="underlined-text">{{translation.Ingredients}}</h2>
+            <ul class="b-current-recipe__list margin-bottom-20">
+                {{#ingredients}}
+                    <li>{{.}}</li>
+                {{/ingredients}}
+            </ul>
+        </div>
+
+        <div>
+            <img class="image b-current-recipe__image" src="/images/all_recipes/{{name}}.png" alt="{{name}}"
+                 width="650"/>
+        </div>
+
+        <div>
+            <h2 class="underlined-text text-center">{{translation.Preparation}}</h2>
+            <ol class="b-current-recipe__list">
+                {{#preparation}}
+                    <li>{{.}}</li>
+                {{/preparation}}
+            </ol>
+        </div>
+    </div>
+{{/currentRecipe}}
+
+{{#error}}
+    <p> Nothing's here</p>
+{{/error}}
+
+<script src="/scripts/openSideMenu.js"></script>
+<script src="/scripts/closeSideMenu.js"></script>
+
+<script src="/scripts/changeCookiesLang.js"></script>
+
+</body>
+</html>
