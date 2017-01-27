@@ -14,6 +14,8 @@ const LANG_DATA_MAP = {
 const getAllRecipes = (req) => LANG_DATA_MAP[req.cookies.lang] || LANG_DATA_MAP['en'];
 
 const app = express();
+
+app.set('port', (process.env.PORT || 3000));
 app.use(express.static('public'));
 
 app.engine('mustache', mustacheExpress());
@@ -54,4 +56,6 @@ app.get('/category/:category', (req, res) => {
     });
 });
 
-app.listen(3000, 'localhost');
+app.listen(app.get('port'), () => {
+    console.log('Node app is running on port', app.get('port'));
+});
