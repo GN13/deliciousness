@@ -42,7 +42,7 @@
           "preparation": [
             "Mix oil and garlic in one bowl",
             "Mix breadcrumbs, grated cheese and pepper in another bowl",
-            "Dip every piece of meat first in oil substance and then in the bowl with breadcrumbs",
+            "Dip every piece of meat first in oil substance, then in the bowl with breadcrumbs",
             "Bake for 30 minutes"
           ]
         },
@@ -97,12 +97,11 @@
             "1 tablespoon butter",
             "1 egg",
             "2 tablespoons breadcrumbs",
-            "salt",
-            "spices"
+            "salt, spices"
           ],
           "preparation": [
             "Boil potato in salty water and mash it",
-            "Add yolk, butter, spices and stir",
+            "Add yolk, butter, flour, spices and stir",
             "Make balls out of mashed potato",
             "Whisk white",
             "Roll balls in white, then in breadcrumbs",
@@ -119,8 +118,7 @@
             "3 cloves of garlic",
             "1 egg",
             "300g flour",
-            "salt",
-            "pepper",
+            "salt, pepper",
             "sunflower oil",
             "breadcrumbs"
           ],
@@ -145,8 +143,7 @@
             "100g bacon or ham",
             "100g cheese",
             "dill",
-            "pepper",
-            "salt"
+            "pepper, salt"
           ],
           "preparation": [
             "Cut out the top of the roll and its inner part",
@@ -163,13 +160,12 @@
             "500g chicken fillet",
             "300g flour",
             "200g melted cheese",
-            "salt",
-            "pepper"
+            "salt, pepper"
           ],
           "preparation": [
             "Cut fillet in pieces",
             "Mix fillet, salt, pepper and spices in a bowl, leave for half an hour",
-            "mix flour, pepper and some more spices in another bowl",
+            "Mix flour, pepper and some more spices in another bowl",
             "Roll fillet in flour, then in cheese, then in flour again",
             "Leave chicken for 10-15 minutes",
             "Fry in a large amount of oil for 3-6 minutes",
@@ -186,11 +182,10 @@
             "1 egg",
             "2 tablespoons milk",
             "6 sausages",
-            "salt",
-            "pepper"
+            "salt, pepper, spices"
           ],
           "preparation": [
-            "Mix flour, sugar, baking soda, salt and pepper, and stir thoroughly",
+            "Mix flour, sugar, baking soda, salt, pepper and spices, and stir thoroughly",
             "Add egg and milk, and knead dense dough",
             "Put sausages on sticks and roll in flour and dough",
             "Fry in oil until batter becomes golden",
@@ -777,6 +772,7 @@
       "category": "Drinks",
       "category_name": "drinks",
       "recipes": [
+
       ]
     }
   ]

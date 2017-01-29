@@ -3,12 +3,14 @@ const mustacheExpress = require('mustache-express');
 const l = require('lodash');
 const cookieParser = require('cookie-parser');
 
-const recipes_en = require('./all_recipes.json');
+const recipes_en = require('./all_recipes_en.json');
 const recipes_ru = require('./all_recipes_ru.json');
+const recipes_uk = require('./all_recipes_uk.json');
 
 const LANG_DATA_MAP = {
     ru: recipes_ru,
     en: recipes_en,
+    uk: recipes_uk
 };
 
 const getAllRecipes = (req) => LANG_DATA_MAP[req.cookies.lang] || LANG_DATA_MAP['en'];
@@ -33,7 +35,20 @@ app.use((req, res, next) => {
 });
 
 app.get('/', (req, res) => {
-    res.render('index', getAllRecipes(req));
+    const recipesData = getAllRecipes(req);
+    res.render(
+        'index',
+        Object.assign(
+            {},
+            recipesData,
+            {
+                allRecipes: l.orderBy(
+                    l.flatten(recipesData.categories.map((category) => category.recipes)),
+                    'title'
+                )
+            }
+        )
+    );
 });
 
 app.get('/all_recipes/:recipe', (req, res) => {
@@ -51,7 +66,13 @@ app.get('/category/:category', (req, res) => {
     const recipesData = getAllRecipes(req);
     const individual_category = l.find(recipesData.categories, {category_name: req.params.category});
     res.render('category', {
-        currentCategory: individual_category,
+        currentCategory: Object.assign(
+            {},
+            individual_category,
+            {
+                recipes: l.orderBy(individual_category.recipes, 'title')
+            }
+        ),
         categories: recipesData.categories
     });
 });
