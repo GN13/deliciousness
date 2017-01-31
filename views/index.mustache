@@ -30,9 +30,12 @@
 <nav class="b-top-panel flex_align-center_justify-between margin-bottom-20">
     <i onclick="openSideMenu()" class="b-top-panel__menu-icon">&#9776;</i>
     <div>
-        <form action="/search">
-            <input id="searchText" type="search" name="phrase" placeholder="Find what to cook"/>
-            <button type="submit">Search</button>
+        <form style="display: flex; align-items: center;" action="/search">
+            <input class="b-top-panel__search-input"
+                   type="search" name="phrase" placeholder="Find what to cook" maxlength = "50"/>
+            <button class="b-top-panel__search-button" type="submit">
+                <span class="b-top-panel__search-icon"></span>
+            </button>
         </form>
     </div>
     <div class="b-top-panel__logo">
