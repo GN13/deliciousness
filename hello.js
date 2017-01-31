@@ -36,19 +36,39 @@ app.use((req, res, next) => {
 
 app.get('/', (req, res) => {
     const recipesData = getAllRecipes(req);
-    res.render(
-        'index',
-        Object.assign(
-            {},
-            recipesData,
-            {
-                allRecipes: l.orderBy(
-                    l.flatten(recipesData.categories.map((category) => category.recipes)),
-                    'title'
-                )
-            }
-        )
+    const orderedRecipes = Object.assign(
+        {},
+        recipesData,
+        {
+            allRecipes: l.orderBy(
+                l.flatten(recipesData.categories.map((category) => category.recipes)), 'title'
+            )
+        }
     );
+    res.render('index', orderedRecipes);
+});
+
+
+app.get('/search', function(req, res) {
+    const recipesData = getAllRecipes(req);
+
+    const searchedItem = req.query.phrase.toLowerCase();
+    const allRecipes = l.flatten(recipesData.categories.map((category) => category.recipes));
+    const foundRecipes = l.filter(allRecipes, (recipe) => {
+       return (
+           recipe.title.toLowerCase().indexOf(searchedItem) !== -1  ||
+           l.find(recipe.ingredients, (ingredient) => ingredient.toLowerCase().indexOf(searchedItem) !== -1)
+       )
+    });
+
+    const orderedRecipes = Object.assign(
+        {},
+        recipesData,
+        {
+            allRecipes: l.orderBy(foundRecipes, 'title')
+        }
+    );
+    res.render('index', orderedRecipes);
 });
 
 app.get('/all_recipes/:recipe', (req, res) => {
