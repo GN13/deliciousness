@@ -8,9 +8,30 @@
 }
 
 .b-top-panel__menu-icon {
+    position: relative;
+    margin: 20px;
+}
+
+.b-top-panel__menu-icon,
+.b-top-panel__menu-icon:after,
+.b-top-panel__menu-icon:before {
     cursor: pointer;
-    font-size: 45px;
-    margin: 15px;
+    height: 6px;
+    width: 35px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.b-top-panel__menu-icon:after {
+    content: ' ';
+    position: absolute;
+    top: 11px;
+}
+
+.b-top-panel__menu-icon:before {
+    content: ' ';
+    position: absolute;
+    bottom: 11px;
 }
 
 .b-top-panel__search-input {
@@ -26,6 +47,7 @@
 
 .b-top-panel__search-button {
     background-color: var(--black);
+    border: 2px solid var(--black);
     border-left: none;
     border-radius: 0 4px 4px 0;
     cursor: pointer;
@@ -46,9 +68,9 @@
     background: var(--white);
     content: "";
     height: 2px;
-    left:9px;
-    position:absolute;
-    top:13px;
+    left: 9px;
+    position: absolute;
+    top: 13px;
     transform: rotate(45deg);
     width: 6px;
 }
