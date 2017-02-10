@@ -66,7 +66,7 @@
 
 .b-top-panel__search-icon:after {
     background: var(--white);
-    content: "";
+    content: ' ';
     height: 2px;
     left: 9px;
     position: absolute;
@@ -125,8 +125,13 @@
 }
 
 .b-recipe-item {
-    flex: 1;
+    flex: 1 0 280px;
     margin: 10px;
+}
+
+.b-recipe-item:empty {
+    height: 0;
+    margin: 0 10px;
 }
 
 .b-recipe-item:hover {
