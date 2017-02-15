@@ -71,7 +71,7 @@ app.get('/search', function(req, res) {
     res.render('index', orderedRecipes);
 });
 
-app.get('/all_recipes/:recipe', (req, res) => {
+app.get('/:recipe', (req, res) => {
     const recipesData = getAllRecipes(req);
     const allRecipes = recipesData.categories.map((category) => category.recipes);
     const currentRecipe = l.find(l.flatten(allRecipes), {name: req.params.recipe});
@@ -93,7 +93,8 @@ app.get('/category/:category', (req, res) => {
                 recipes: l.orderBy(individual_category.recipes, 'title')
             }
         ),
-        categories: recipesData.categories
+        categories: recipesData.categories,
+        translation: recipesData.translation
     });
 });
 

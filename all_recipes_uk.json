@@ -2,7 +2,8 @@
   "translation" : {
     "Main page": "Головна",
     "Ingredients": "Інгредієнти",
-    "Preparation": "Приготування"
+    "Preparation": "Приготування",
+    "Search" : "Пошук..."
   },
   "categories" : [
     {
@@ -636,7 +637,7 @@
     },
     {
       "category": "Пироги і торти",
-      "category_name": "tarts_cakes",
+      "category_name": "pies_cakes",
       "recipes": [
         {
           "title": "Яблучний штрудель",

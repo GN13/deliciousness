@@ -2,7 +2,8 @@
   "translation" : {
     "Main page": "Main page",
     "Ingredients": "Ingredients",
-    "Preparation": "Preparation"
+    "Preparation": "Preparation",
+    "Search": "Search..."
   },
   "categories": [
     {
@@ -637,7 +638,7 @@
     },
     {
       "category": "Tarts and Cakes",
-      "category_name": "tarts_cakes",
+      "category_name": "pies_cakes",
       "recipes": [
         {
           "title": "Apple Strudel",

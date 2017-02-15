@@ -28,11 +28,11 @@
 </div>
 
 <nav class="b-top-panel flex_align-center_justify-between margin-bottom-20">
-    <i onclick="openSideMenu()" class="b-top-panel__menu-icon"></i>
+    <img src="/images/menu-icon.svg" onclick="openSideMenu()" class="b-top-panel__menu-icon" width="35" height="26" />
     <div>
-        <form style="display: flex; align-items: center;" action="/search">
+        <form style="display: flex; align-items: center; margin: 20px;" action="/search">
             <input class="b-top-panel__search-input"
-                   type="search" name="phrase" placeholder="Find what to cook" maxlength = "50" />
+                   type="search" name="phrase" placeholder="{{translation.Search}}" maxlength = "50" />
             <button class="b-top-panel__search-button" type="submit">
                 <span class="b-top-panel__search-icon"></span>
             </button>
@@ -49,7 +49,7 @@
     <h1 class="text-center">{{category}}</h1>
     <section class="flex_wrap_align-start">
         {{#recipes}}
-            <a href="/all_recipes/{{name}}" class="b-recipe-item link text-center">
+            <a href="/{{name}}" class="b-recipe-item link text-center">
                 <img class="image" src="/images/all_recipes/{{name}}_280x210.png" alt="{{name}}" width="280"/>
                 <h2>{{title}}</h2>
             </a>
