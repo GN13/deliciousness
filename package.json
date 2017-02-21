@@ -4,13 +4,26 @@
   "description": "Small cookery book",
   "main": "hello.js",
   "dependencies": {
-    "body-parser": "^1.16.0",
-    "cookie-parser": "^1.4.3",
     "express": "^4.14.0",
     "lodash": "4.17.3",
-    "mustache-express": "^1.2.4"
+    "mustache-express": "^1.2.4",
+    "body-parser": "^1.16.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-es2015": "^6.22.0",
+    "cookie-parser": "^1.4.3",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^2.0.0-rc.3",
+    "postcss": "^5.2.14",
+    "postcss-cssnext": "^2.9.0",
+    "postcss-custom-properties": "^5.0.2",
+    "postcss-import": "^9.1.0",
+    "postcss-loader": "^1.3.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.2.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
