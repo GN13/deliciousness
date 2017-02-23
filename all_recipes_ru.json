@@ -3,7 +3,8 @@
     "Main page": "Главная",
     "Ingredients": "Ингредиеты",
     "Preparation": "Приготовление",
-    "Search": "Поиск..."
+    "Search": "Поиск...",
+    "AllRecipes" : "Все рецепты"
   },
   "categories" : [
     {

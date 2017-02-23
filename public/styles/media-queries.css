@@ -1,16 +1,24 @@
-@media all and (max-width: 650px) {
+@media all and (max-width: 830px) {
     .b-top-panel__logo {
         display: none;
     }
+}
 
+@media all and (max-width: 660px) {
     .b-current-recipe__image {
         padding: 0 15px;
         width: 100%;
     }
 }
 
-@media all and (max-width: 805px) {
-    .b-top-panel__search-input {
+@media all and (max-width: 510px) {
+    .b-top-panel__search-input:focus {
         width: 200px;
+    }
+}
+
+@media all and (max-width: 360px) {
+    .b-top-panel__search-input:focus {
+        width: 80%;
     }
 }

@@ -22,17 +22,18 @@
             <h4>{{category}}</h4>
         </a>
     {{/categories}}
+    <a class="link flex_column_align-center b-side-menu__all" href="/">
+        <h4>{{translation.AllRecipes}}</h4>
+    </a>
 </div>
 
 <nav class="b-top-panel flex_align-center_justify-between margin-bottom-20">
     <img src="/images/menu-icon.svg" onclick="openSideMenu()" class="b-top-panel__menu-icon" width="35" height="26" />
     <div>
-        <form style="display: flex; align-items: center; margin: 20px;" action="/search">
+        <form class="b-top-panel__search-form" style="" action="/search">
             <input class="b-top-panel__search-input"
-                   type="search" name="phrase" placeholder="{{translation.Search}}" maxlength = "50" />
-            <button class="b-top-panel__search-button" type="submit">
-                <span class="b-top-panel__search-icon"></span>
-            </button>
+                   type="search" name="phrase" placeholder="{{translation.Search}}" maxlength = "50"/>
+            <button class="b-top-panel__search-button" type="submit"></button>
         </form>
     </div>
     <div class="b-top-panel__logo">
