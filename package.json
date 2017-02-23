@@ -2,7 +2,7 @@
   "name": "deliciousness",
   "version": "0.0.1",
   "description": "Small cookery book",
-  "main": "webpack.config.js",
+  "main": "hello.js",
   "dependencies": {
     "body-parser": "^1.16.0",
     "express": "^4.14.0",
@@ -24,7 +24,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "npm i --dev && webpack --bail"
+    "postinstall": "webpack webpack.config.js"
   },
   "repository": {
     "type": "git",
