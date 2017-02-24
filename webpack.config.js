@@ -1,6 +1,7 @@
 const path = require('path');
 const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const isProduction = process.env.NODE_ENV === 'production';
 
 module.exports = {
     entry: {
@@ -8,7 +9,7 @@ module.exports = {
     },
     output: {
         path: path.join(__dirname, './public/build'),
-        filename: '[name].trunks.js'
+        filename: isProduction ? '[name].[hash].js' : '[name].trunk.js',
     },
     module: {
         rules: [
@@ -41,7 +42,7 @@ module.exports = {
         ]
     },
     plugins: [
-        new ExtractTextPlugin('[name].trunk.css'),
+        new ExtractTextPlugin(isProduction ? '[name].[hash].css' : '[name].trunk.css'),
     ]
 
 };
