@@ -7,6 +7,8 @@ const recipes_en = require('./all_recipes_en.json');
 const recipes_ru = require('./all_recipes_ru.json');
 const recipes_uk = require('./all_recipes_uk.json');
 
+const webpackStats = require('./public/build/stats.json');
+
 const LANG_DATA_MAP = {
     ru: recipes_ru,
     en: recipes_en,
@@ -37,7 +39,7 @@ app.use((req, res, next) => {
 app.get('/', (req, res) => {
     const recipesData = getAllRecipes(req);
     const orderedRecipes = Object.assign(
-        {},
+        { webpackStats },
         recipesData,
         {
             allRecipes: l.orderBy(
@@ -62,7 +64,7 @@ app.get('/search', function(req, res) {
     });
 
     const orderedRecipes = Object.assign(
-        {},
+        { webpackStats },
         recipesData,
         {
             allRecipes: l.orderBy(foundRecipes, 'title')
@@ -78,23 +80,26 @@ app.get('/:recipe', (req, res) => {
     res.render('individual_recipe', {
         currentRecipe,
         categories: recipesData.categories,
-        translation: recipesData.translation
+        translation: recipesData.translation,
+        webpackStats
     });
 });
 
 app.get('/category/:category', (req, res) => {
     const recipesData = getAllRecipes(req);
     const individual_category = l.find(recipesData.categories, {category_name: req.params.category});
+    const currentCategory = Object.assign(
+        {},
+        individual_category,
+        {
+            recipes: l.orderBy(individual_category.recipes, 'title')
+        }
+    );
     res.render('category', {
-        currentCategory: Object.assign(
-            {},
-            individual_category,
-            {
-                recipes: l.orderBy(individual_category.recipes, 'title')
-            }
-        ),
+        currentCategory,
         categories: recipesData.categories,
-        translation: recipesData.translation
+        translation: recipesData.translation,
+        webpackStats
     });
 });
 

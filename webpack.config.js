@@ -1,6 +1,7 @@
 const path = require('path');
 const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const StatsPlugin = require('stats-webpack-plugin');
 
 module.exports = {
     entry: {
@@ -28,9 +29,10 @@ module.exports = {
                                 sourceMap: 'inline',
                                 plugins: function () {
                                     return [
-                                        require('autoprefixer'),
                                         require('postcss-import'),
-                                        require('postcss-custom-properties')({preserve: 'computed'})
+                                        require('postcss-custom-properties')({preserve: 'computed'}),
+                                        // require('postcss-cssnext')
+                                        require('autoprefixer'),
                                     ];
                                 }
                             }
@@ -41,7 +43,14 @@ module.exports = {
         ]
     },
     plugins: [
-        new ExtractTextPlugin('[name].trunk.css'),
+        new ExtractTextPlugin('[name].[hash].css'),
+        new StatsPlugin('stats.json', {
+            modules: false,
+            chunks: false,
+            assets: false,
+            version: false,
+            errorDetails: false,
+        })
     ]
 
 };
